@@ -595,7 +595,8 @@ ul.nav__list {
 .customers {
     display: flex;
     margin-top: 100px;
-    /* flex-wrap: wrap; */
+    justify-content: center; 
+    flex-wrap: wrap;
 }
 
 .what__hotel__photo {
@@ -607,7 +608,7 @@ ul.nav__list {
 
 .about__us {
     min-width: 58px;
-    max-width: 565px;
+    max-width: 541px;
     height: 136px;
     font-weight: 500;
     font-size: 45px;
@@ -623,6 +624,7 @@ ul.nav__list {
 }
 
 .man {
+    margin-right: 30px;
     width: 134px;
     height: 134px;
     border-radius: 35px;
@@ -630,7 +632,7 @@ ul.nav__list {
 
 .man__name {
     width: 107px;
-    height: 50px;
+    min-height: 50px;
 
     font-weight: 500;
     font-size: 33px;
@@ -641,7 +643,7 @@ ul.nav__list {
 
 .location {
     width: 231px;
-    height: 38px;
+    min-height: 38px;
 
     font-weight: 400;
     font-size: 25px;
@@ -656,7 +658,7 @@ ul.nav__list {
 .review__text {
     min-width: 58px;
     max-width: 491px;
-    height: 66px;
+    min-height: 66px;
 
     font-weight: 500;
     font-size: 22px;
@@ -673,6 +675,15 @@ ul.nav__list {
     margin-top: 25px;
 }
 
+.man__text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+/*-------/конец блока с фитбеком-------*/
 
 
 
@@ -709,23 +720,11 @@ ul.nav__list {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     align-items: baseline;
 }
 
-/* .footer__nav {
-    display: flex;
-    justify-content: space-between;
-    
-    align-items: center;
 
-
-    position: relative;
-
-    margin-bottom: 80px;
-} */
-
-/* nav */
 
 .footer__nav__list {
     display: flex;
@@ -805,6 +804,8 @@ ul.nav__list {
 ul.footer__nav__list {
     align-items: center;
 }
+
+/*----------/конец футера---------*/
 
 
 
