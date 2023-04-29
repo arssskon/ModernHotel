@@ -685,6 +685,87 @@ ul.nav__list {
 
 /*-------/конец блока с фитбеком-------*/
 
+/*----- начало блока с гет стартом--------*/
+
+.reservation__content {
+    max-width: 1240px;
+    min-height: 571px;
+    background: #E7F1FC;
+    border-radius: 60px;
+    margin-top: 113px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.white__hotel {
+    max-width: 525px;
+    max-height: 529px;
+    border-radius: 60px;
+    margin-left: 21px;
+    margin-top: 21px;
+    margin-right: 74px;
+
+
+}
+
+.prepare__big {
+    max-width: 550px;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 68px;
+
+    color: #101729;
+
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+.prepare__small {
+    max-width: 509px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #101729;
+    opacity: 0.5;
+    margin-bottom: 60px;
+}
+
+.prepare__text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+   
+} 
+
+.started__btn {
+    width: 225px;
+    height: 79px;
+    /* left: 532px;
+    top: 1574px; */
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #F6F6F6;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+
+    background: linear-gradient(108.34deg, #17C2ED 4.55%, #1C7DD7 95.45%);
+    border-radius: 27px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    transition: background-color .2s ease;
+}
+
 
 
 
@@ -731,8 +812,6 @@ ul.nav__list {
     column-gap: 80px;
     font-weight: 500;
     font-size: 15px;
-
-
 }
 
 
