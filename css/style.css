@@ -50,6 +50,13 @@ ul {
     margin-right: 5px;
 } */
 
+.nav-last {
+    /* margin-right: -20px;
+    margin-left: 40px; */
+    margin-right: -65px;
+    margin-left: 50px;
+}
+
 
 .header {
     background-color: #121D39; /*только для начала*/
@@ -319,6 +326,11 @@ ul.nav__list {
     padding-top: 109px /*нужно ли снизу задавать 127 --- по вопросом*/
 }
 
+/* .info__block {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
 /*начало первого отеля*/
 
 .hotel__ghazi {
@@ -558,6 +570,8 @@ ul.nav__list {
 
     transition: background-color .2s ease;
 }
+
+
 
 /*----------/конец блока с инфой про отели---------------------------*/
 
