@@ -159,6 +159,16 @@ ul.nav__list {
 
 /* ----начало интро хэдера ---------*/
 
+.intro {
+    background: url('../img/intro-background-4.png') no-repeat center;
+    background-repeat: cover;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 27px; 
+}
+
 .intro__content {
     display: flex;
     justify-content: space-between;
