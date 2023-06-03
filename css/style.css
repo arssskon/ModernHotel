@@ -164,9 +164,11 @@ ul.nav__list {
     background-repeat: cover;
     /* text-align: center; */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     column-gap: 30px;
-    padding-top: 27px; 
+    padding-top: 4px; 
+    z-index: -2;
+    
 }
 
 .intro__content {
@@ -270,19 +272,24 @@ ul.nav__list {
     border-radius: 86px;
 } */
 
+.header__img {
+    position: relative;
+}
+
 .image {
     width: 592px;
     height: 761px;
     border-radius: 86px;
+    z-index: 2;
 
     position: relative;
 
-    background: url(../img/intro-hotel.jpg);
-    background-size: cover;
+    /* background: url(../img/intro-hotel.jpg);
+    background-size: cover; */
 }
 
 .image::before {
-    z-index: -1;
+    z-index: 2;
 
     content: "";
 
@@ -299,6 +306,56 @@ ul.nav__list {
 
     
 }
+
+/*----------первые кружочки---------------*/
+.big_circle-1  {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    right: 635px;
+    top: 4px;
+}
+
+.middle_circle-1 {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    right: 648px;
+    top: 47px;
+}
+
+.small_circle-1 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: 622px;
+    top: 38px;
+}
+
+.big_circle-2 {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    right: -56px;
+    top: 601px;
+}
+
+.middle_circle-2 {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    right: -68px;
+    top: 570px;
+}
+
+.small_circle-2 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: -31px;
+    top: 575px;
+}
+
 
 /*промежуточный конец интро-хэдера---------------------------*/
 
@@ -347,6 +404,8 @@ ul.nav__list {
     display: flex;
     margin-top: 128px;
     flex-wrap: wrap;
+
+    position: relative;
 }
 
 .ghazi__text {
@@ -420,6 +479,59 @@ ul.nav__list {
 
     transition: background-color .2s ease;
 }
+
+/*----------вторые кружочки--------------*/
+
+.big_circle-3  {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 1126px;
+    top: 81px;
+}
+
+.middle_circle-3 {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 1164px;
+    top: 70px;
+}
+
+.small_circle-3 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    /* left: 1226px;
+    top: 101px; */
+    left: 1135px;
+    top: 56px;
+}
+
+.big_circle-4  {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 55px;
+    top: 543px; 
+}
+
+.middle_circle-4 {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 23px;
+    top: 544px;
+}
+
+.small_circle-4 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 41px;
+    top: 573px;
+}
+
 
 
 /*второй отель*/
