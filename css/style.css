@@ -1023,7 +1023,7 @@ ul.nav__list {
 }
 
 ul.footer__nav__list {
-intro    align-items: center;
+    align-items: center;
 }
 
 /*----------/конец футера---------*/
@@ -1055,6 +1055,11 @@ intro    align-items: center;
         background: none;
         /* background-color: #121D39; */
     }   
+    .image {
+        width: 90%;
+        
+        height: auto;
+    }
     .image::before {
         display: none;
     }
@@ -1064,17 +1069,30 @@ intro    align-items: center;
     .three_circles-3 {
         display: none;
     }
+    .three_circles-4 {
+        display: none;
+    }
     .info {
         max-width: 990px;
         display: flex;
         justify-content: center;
     } 
+    .hotel__photo-1 {
+        margin-right: 4px;
+    }
+    .hotel__photo-2 {
+        margin-right: 4px;
+    }
+    .hotel__photo-3 {
+        margin-right: 4px;
+    }
+
     /*адаптация отеля ослан*/
     .hotel__arslan {
         display: flex;
-        margin-top: 10px;
-        margin-left: 209px;
-        flex-wrap: nowrap;
+        margin-top: 27px;
+        margin-left: 6px;
+        flex-wrap: wrap;
     }
     .arslan {
         max-width: 456px;
