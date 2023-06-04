@@ -122,6 +122,10 @@ ul {
     opacity: 1;
 }
 
+.item-1 {
+    margin-left: 75px;
+}
+
 
 .header__btn {
     /*align-items: flex-start;*/
@@ -155,6 +159,7 @@ ul {
 
 ul.nav__list {
     align-items: center;
+    margin-left: 44px;
 }
 
 /* ----начало интро хэдера ---------*/
@@ -164,9 +169,10 @@ ul.nav__list {
     background-repeat: cover;
     /* text-align: center; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     column-gap: 30px;
-    padding-top: 4px; 
+    padding-top: 16px; 
     z-index: -2;
     
 }
@@ -1022,5 +1028,127 @@ ul.footer__nav__list {
 
 /*----------/конец футера---------*/
 
+/*медио форматирование и адоптация*/
+
+@media only screen and (max-width: 992px){ 
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    /*настройка хэдера*/
+    ul.nav__list {
+        align-items: center;
+        /* margin-left: -93px; */
+        margin-left: -22px;
+    }
+    .nav__link:last-child {
+        margin-right: 69px;
+    }
+    .nav__list {
+        column-gap: 0px;
+    }
+    .inrto {
+        width: 990px;
+        display: flex;
+        justify-content: center;
+        background: none;
+        /* background-color: #121D39; */
+    }   
+    .image::before {
+        display: none;
+    }
+    .three_circles-2 {
+        display: none;
+    }
+    .three_circles-3 {
+        display: none;
+    }
+    .info {
+        width: 990px;
+        display: flex;
+        justify-content: center;
+    } 
+    /*адаптация отеля ослан*/
+    .hotel__arslan {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 209px;
+        flex-wrap: nowrap;
+    }
+    .arslan {
+        max-width: 456px;
+        min-width: 250px;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 38px;
+        color: #101729;
+        opacity: 0.5;
+        margin-top: 66px;
+        margin-bottom: 60px;
+    }
+    /* конец адаптации отеля ослан*/
+    .review {
+        width: 900px;
+        display: flex;
+        justify-content: center;
+    }
+    .reservation {
+        width: 900px;
+        display: flex;
+        justify-content: center;
+    }
+    .prepare__text {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: space-around;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer {
+        width: 900px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer__nav__list{
+        column-gap: 57px;
+    }
+     /* .three_circles-1 {
+        display: none;
+    }  */
+}
+
+@media only screen and (max-max-width: 768px) {
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .inrto {
+        width: 768px;
+        display: flex;
+        justify-content: center;
+        background: none;
+        background-color: #121D39;
+    }   
+    .image::before {
+        display: none;
+    }
+    .three_circles-1 {
+        display: none;
+    }
+    .three_circles-2 {
+        display: none;
+    }
+    .three_circles-3 {
+        display: none;
+    }
+}
 
 
