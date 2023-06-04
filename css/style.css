@@ -1023,7 +1023,7 @@ ul.nav__list {
 }
 
 ul.footer__nav__list {
-    align-items: center;
+intro    align-items: center;
 }
 
 /*----------/конец футера---------*/
@@ -1032,7 +1032,7 @@ ul.footer__nav__list {
 
 @media only screen and (max-width: 992px){ 
     .header {
-        width: 100%;
+        max-width: 100%;
         display: flex;
         justify-content: center;
     }
@@ -1049,7 +1049,7 @@ ul.footer__nav__list {
         column-gap: 0px;
     }
     .inrto {
-        width: 990px;
+        max-width: 990px;
         display: flex;
         justify-content: center;
         background: none;
@@ -1065,7 +1065,7 @@ ul.footer__nav__list {
         display: none;
     }
     .info {
-        width: 990px;
+        max-width: 990px;
         display: flex;
         justify-content: center;
     } 
@@ -1089,12 +1089,12 @@ ul.footer__nav__list {
     }
     /* конец адаптации отеля ослан*/
     .review {
-        width: 900px;
+        max-width: 900px;
         display: flex;
         justify-content: center;
     }
     .reservation {
-        width: 900px;
+        max-width: 900px;
         display: flex;
         justify-content: center;
     }
@@ -1107,7 +1107,7 @@ ul.footer__nav__list {
         justify-content: center;
     }
     .footer {
-        width: 900px;
+        max-width: 900px;
         display: flex;
         justify-content: center;
     }
@@ -1126,12 +1126,12 @@ ul.footer__nav__list {
 
 @media only screen and (max-max-width: 768px) {
     .header {
-        width: 100%;
+        max-width: 100%;
         display: flex;
         justify-content: center;
     }
     .inrto {
-        width: 768px;
+        max-width: 768px;
         display: flex;
         justify-content: center;
         background: none;
