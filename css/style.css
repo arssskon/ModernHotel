@@ -1030,16 +1030,16 @@ ul.footer__nav__list {
 
 /*медио форматирование и адоптация*/
 
-@media only screen and (max-width: 992px){ 
+/* @media only screen and (max-width: 992px){ 
     .header {
         max-width: 100%;
         display: flex;
         justify-content: center;
     }
     /*настройка хэдера*/
-    ul.nav__list {
+    /*ul.nav__list {
         align-items: center;
-        /* margin-left: -93px; */
+
         margin-left: -22px;
     }
     .nav__link:last-child {
@@ -1052,9 +1052,9 @@ ul.footer__nav__list {
         max-width: 990px;
         display: flex;
         justify-content: center;
-        background: none;
-        /* background-color: #121D39; */
-    }   
+        background: none; */
+            /* background-color: #121D39; */
+    /* }   
     .image {
         width: 90%;
         
@@ -1085,10 +1085,10 @@ ul.footer__nav__list {
     }
     .hotel__photo-3 {
         margin-right: 4px;
-    }
+    } */
 
     /*адаптация отеля ослан*/
-    .hotel__arslan {
+    /* .hotel__arslan {
         display: flex;
         margin-top: 27px;
         margin-left: 6px;
@@ -1104,9 +1104,9 @@ ul.footer__nav__list {
         opacity: 0.5;
         margin-top: 66px;
         margin-bottom: 60px;
-    }
+    } */
     /* конец адаптации отеля ослан*/
-    .review {
+    /* .review {
         max-width: 900px;
         display: flex;
         justify-content: center;
@@ -1136,13 +1136,13 @@ ul.footer__nav__list {
     }
     .footer__nav__list{
         column-gap: 57px;
-    }
-     /* .three_circles-1 {
-        display: none;
-    }  */
-}
+    } */
+     /*    .three_circles-1 {
+             display: none;
+    }  
+} */
 
-@media only screen and (max-max-width: 768px) {
+/* @media only screen and (max-max-width: 768px) {
     .header {
         max-width: 100%;
         display: flex;
@@ -1167,6 +1167,6 @@ ul.footer__nav__list {
     .three_circles-3 {
         display: none;
     }
-}
+} */
 
 

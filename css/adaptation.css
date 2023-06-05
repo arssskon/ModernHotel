@@ -1,0 +1,196 @@
+@media only screen and (max-width: 992px){ 
+    .header {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    /*настройка хэдера*/
+    ul.nav__list {
+        align-items: center;
+        /* margin-left: -93px; */
+        margin-left: -22px;
+    }
+    .nav__link:last-child {
+        margin-right: 69px;
+    }
+    .nav__list {
+        column-gap: 0px;
+    }
+    .inrto {
+        max-width: 990px;
+        display: flex;
+        justify-content: center;
+        background: none;
+        /* background-color: #121D39; */
+    }   
+
+    .image {
+        width: 90%;
+        height: auto;
+    }
+
+    .image::before {
+        display: none;
+    }
+    .three_circles-2 {
+        display: none;
+    }
+    .three_circles-3 {
+        display: none;
+    }
+    .three_circles-4 {
+        display: none;
+    }
+    .info {
+        max-width: 990px;
+        display: flex;
+        justify-content: center;
+    } 
+    .hotel__photo-1 {
+        margin-right: 2px;
+    }
+    .hotel__photo-2 {
+        margin-right: 2px;
+    }
+    .hotel__photo-3 {
+        margin-right: 2px;
+    }
+
+    /*адаптация отеля ослан*/
+    .hotel__arslan {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 0px;
+        flex-wrap: wrap;
+    }
+    .arslan {
+        max-width: 456px;
+        min-width: 250px;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 38px;
+        color: #101729;
+        opacity: 0.5;
+        margin-top: 66px;
+        margin-bottom: 60px;
+    }
+    /* конец адаптации отеля ослан*/
+    .review {
+        max-width: 900px;
+        display: flex;
+        justify-content: center;
+    }
+    .reservation {
+        max-width: 900px;
+        display: flex;
+        justify-content: center;
+    }
+    .prepare__text {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: space-around;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer {
+        max-width: 900px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer__nav__list{
+        column-gap: 57px;
+    }
+     /* .three_circles-1 {
+        display: none;
+    }  */
+    .three_circles-1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav__link:last-child {
+        margin-right: 17px;
+    }
+    
+    ul.nav__list {
+        margin-left: -6px;
+    }
+    .header__btn {
+        margin-left: 71px
+    }
+    .inrto {
+        max-width: 768px;
+        display: flex;
+        justify-content: center;
+        background: none;
+        background-color: #121D39;
+    }   
+    .image::before {
+        display: none;
+    }
+    .three_circles-1 {
+        display: none;
+    }
+    .three_circles-2 {
+        display: none;
+    }
+    .three_circles-3 {
+        display: none;
+    }
+    .footer__nav__list {
+        column-gap: 41px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .review__title {
+        font-size: 35px;
+    }
+    .what__hotel__photo {
+        width: 545px;
+        height: 510px;
+        border-radius: 60px;
+        margin-right: 0px;
+    }
+    .white__hotel {
+        margin-left: 62px;
+    }
+    .footer__nav__list {
+        column-gap: 2px;
+    }
+    .footer__btn {
+        margin-left: 24px;
+    }
+    .image {
+        
+        display: none;
+    }
+    /*тест*/
+    .nav__link:last-child {
+        margin-right: -12px;
+    }
+    .item-1 {
+        margin-left: 7px;
+    }
+    .nav__list {
+        column-gap: 15px;
+    }
+
+}
