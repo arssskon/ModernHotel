@@ -124,7 +124,7 @@
         justify-content: center;
     }
     .nav__link:last-child {
-        margin-right: 17px;
+        margin-right: 9px;
     }
     
     ul.nav__list {
@@ -152,8 +152,20 @@
     .three_circles-3 {
         display: none;
     }
+    .reservation {
+        max-width: 760px;
+    }
+    .reservation__content {
+        max-width: 615px;
+    }
     .footer__nav__list {
         column-gap: 41px;
+    }
+    .footer__nav__link:last-child {
+        margin-right: 9px;
+    }
+    .footer__btn {
+        margin-left: 21px;
     }
 }
 
