@@ -175,6 +175,11 @@
         display: flex;
         justify-content: center;
     }
+    .intro {
+        padding-top: 0px;
+        height: 798px;
+        width: 576px;
+    }
     .review__title {
         font-size: 35px;
     }
@@ -186,6 +191,8 @@
     } 
     .white__hotel {
         margin-left: 62px;
+        width: 505px;
+        height: 509px;
     }
     .footer__nav__list {
         column-gap: 2px;
@@ -272,7 +279,57 @@
         font-size: 25px;
         text-align: center;
     }
+    /* .nav__link:last-child {
+        margin-right: 9px;
+    } */
+    /* .nav__link:last-child {
+        margin-right: 68px;
+        margin-left: -60px;
+    } */
+    .nav__link:last-child {
+        margin-right: 0px;
+    }
+    ul.nav__list {
+        align-items: center;
+        
+    }
+    .nav__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
     
+    .nav-last {
+        margin-right: 0px;
+        margin-left: 0px;
+        /* margin-top: 20px; */
+    }
+
+    .footer__nav__link:last-child {
+        margin-right: 13px;
+    }
+    .nav__link {
+        margin-top: 20px;
+    }
+    .nav__item {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-btn-login {
+        display: flex;
+        justify-content: center;
+    }
+    .header__btn {
+        margin-left: 0px;
+    }
+    .footer__btn {
+        margin-left: 5px;
+    }
+    .about__us {
+        font-size: 40px;
+    }
 
 
 
