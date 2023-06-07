@@ -1,3 +1,5 @@
+/*медио форматирование и адоптация*/
+
 @media only screen and (max-width: 992px){ 
     .header {
         max-width: 100%;
@@ -505,6 +507,10 @@
     .intro__btn__1 {
         display: none;
     }
+    .logo {
+        width: 75px;
+        height: 16px;
+    }
 
     .intro__title {
         max-width: 300px;
@@ -541,6 +547,7 @@
     .hotel__photo-1 {
         width: 272px;
         height: 334px;
+        margin-top: 29px;
     }
     .ghazi {
         max-width: 295px;
@@ -672,4 +679,24 @@
         width: 100%;
     }
     
+}
+
+@media only screen and (max-width:  682px) {
+    .intro__btn {
+        margin-top: -59px;
+    }
+}
+@media only screen and (max-width:  647px) {
+    /* .intro__btn {
+        margin-top: -59px;
+    } */
+    .header__content p {
+        margin-bottom: 32px;
+    }
+}
+
+@media only screen and (max-width:  696px) {
+    .header__content p {
+        margin-bottom: 32px;
+    }
 }
