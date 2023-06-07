@@ -171,7 +171,8 @@
 
 @media only screen and (max-width: 576px) {
     .header {
-        max-width: 576px;
+        /* max-width: 576px; */
+        width: 100%;
         display: flex;
         justify-content: center;
     }
@@ -493,9 +494,12 @@
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
     .header__content p {
         max-width: 240px;
+    }
+    .header {
+        width: 100%;
     }
     .intro__title {
         max-width: 300px;
