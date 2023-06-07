@@ -191,8 +191,8 @@
     } 
     .white__hotel {
         margin-left: 62px;
-        width: 505px;
-        height: 509px;
+        width: 405px;
+        height: 409px;
     }
     .footer__nav__list {
         column-gap: 2px;
@@ -337,5 +337,160 @@
 }
 
 @media only screen and (max-width: 320px) {
+    .header__content p {
+        max-width: 240px;
+    }
+    .intro__title {
+        max-width: 300px;
+        font-size: 40px;
+        margin-top: -12px;
+    }
+    .header__content {
+        margin-left: 12px;
+        margin-top: -128px;
+        
+    }
+    .intro {
+        padding-top: 0px;
+        height: 798px;
+        width: 320px;
+    }
+    .header__content p {
+        margin-bottom: 20px;
+    }
+    .info__title {
+        width: 300px;
+        max-height: 115px;
+
+    }
+    .featured {
+        width: 300px;
+    }
+    .hotel__photo-1 {
+        width: 272px;
+        height: 334px;
+    }
+    .ghazi {
+        max-width: 295px;
+        margin-top: 10px;
+    }
+    .info {
+        padding-top: 0px
+    }
+    .hotel__photo-2 {
+        width: 272px;
+        height: 334px;
+    }
+    .hotel__photo-3 {
+        width: 272px;
+        height: 334px;
+    }
+    .arslan {
+        max-width: 295px;
+        margin-top: 10px;
+    }
+    .utsman {
+        max-width: 295px;
+        margin-top: 10px;
+    }
+    .hotel__utsman_h2 {
+        font-size: 40px;
+    }
+    .hotel__arslan_h2 {
+        font-size: 40px;
+    }
+    .hotel__ghazi_h2 {
+        font-size: 40px;
+    }
+    .review__title {
+        font-size: 30px;
+        max-width: 300px;
+        text-align: center;
+    }
+    .what__hotel__photo {
+        width: 300px;
+        height: 266px;
+    } 
+    .about__us {
+        font-size: 30px;
+        max-width: 300px;
+    }
+    .man__text { 
+        max-width: 130px;
+        margin-top: -30px;
+    }
+    .review__text {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .star-1 {
+        height: 39px;
+        width: 39px;
+        margin-right: 5px;
+    }
+    .star-2 {
+        height: 39px;
+        width: 39px;
+        margin-right: 5px;
+    }
+    .star-3 {
+        height: 39px;
+        width: 39px;
+        margin-right: 5px;
+    }
+    .star-4 {
+        height: 39px;
+        width: 39px;
+        margin-right: 5px;
+    }
+    .star-5 {
+        height: 39px;
+        width: 39px;
+        margin-right: 5px;
+    }
+    .white__hotel {
+        /* width: 167px;
+        height: 151px; */
+        /* width: 273px;
+        height: 270px; */
+        width: 190px;
+        height: 190px;
+        margin-left: 72px;
+        margin-top: 8px;
+    }
+    .prepare__big {
+        font-size: 30px;
+        max-width: 300px;
+        margin-top: -15px;
+    }
+    .prepare__small {
+        font-size: 20px;
+        max-width: 300px;
+        margin-top: -15px;
+        margin-bottom: 6px;
+    }
+    .reservation__content { 
+        max-width: 310px;
+
+    }
+    .started__btn {
+        margin-bottom: 9px;
+    }
+    ul.footer__nav__list {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center; 
+    }
+    .footer__nav {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+
 
 }
