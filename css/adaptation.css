@@ -498,9 +498,11 @@
     .header__content p {
         max-width: 240px;
     }
+    /*работой гитхаб пж*/
     .header {
         width: 100%;
     }
+
     .intro__title {
         max-width: 300px;
         font-size: 40px;
